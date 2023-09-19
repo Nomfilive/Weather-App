@@ -1,0 +1,83 @@
+.weather-app{
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: radial-gradient(592px at 48.2% 50%, rgba(255, 255, 249, 0.6) 0%, rgb(160, 199, 254) 74.6%);
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    max-width: 650px;
+    padding: 5px 5px;
+   
+   
+  }
+  form {
+    margin-top: 20px;
+  }
+  .city {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    line-height: 25px;
+  }
+  .day {
+    font-size: 25px;
+    padding: 0;
+  }
+  .time {
+    font-size: 20px;
+    padding: 0;
+    line-height: 15px;
+  }
+  .list {
+    margin-top: 20px;
+  }
+  ul {
+      list-style-type: none;
+      margin-left: 40px;
+  }
+  .weather {
+      font-size: 50px;
+      font-weight: 300;
+  }
+  .celsius {
+    font-size: 20px;
+    position: relative;
+    top: -16px;
+    font-weight:200; 
+  }
+  .fahrenheit {
+    font-size: 20px;
+    position: relative;
+    top:-16px;
+    font-weight:200;
+  }
+  #celsius-link {
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+  }
+  #fahrenheit-link {
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+  }
+  #celsius-link:hover {
+    text-decoration: underline;
+  }
+  #fahrenheit-link:hover {
+    text-decoration: underline;
+  }
+  .col {
+      text-align: center;
+      line-height: 35px;
+  }
+  .weatherIcon {
+      font-size: 40px;
+  }
+  .days {
+      font-size: 25px;
+      font-weight: bold;
+  }
+  head {
+    background-image: url("images/image1.jpeg");
+  }
+  .degrees {
+    font-size: 12px;
+  }
